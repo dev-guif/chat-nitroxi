@@ -1,6 +1,6 @@
 {
-  "name": "Horizon Chat",
-  "short_name": "Horizon Chat",
+  "name": "Nitroxi",
+  "short_name": "Nitroxi",
   "icons": [{
     "src": "\/android-icon-36x36.png",
     "sizes": "36x36",
@@ -39,6 +39,6 @@
    }],
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#014F5B",
-  "theme_color": "#014F5B"
+  "background_color": "#003D69",
+  "theme_color": "#003D69"
 }

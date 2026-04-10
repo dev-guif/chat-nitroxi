@@ -41,12 +41,12 @@ const copyBackupCodes = async () => {
 };
 
 const downloadBackupCodes = () => {
-  const codesText = `Horizon CRM Two-Factor Authentication Backup Codes\n\n${props.backupCodes.join('\n')}\n\nKeep these codes in a safe place.`;
+  const codesText = `Nitroxi Two-Factor Authentication Backup Codes\n\n${props.backupCodes.join('\n')}\n\nKeep these codes in a safe place.`;
   const blob = new Blob([codesText], { type: 'text/plain' });
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
-  a.download = 'horizon-crm-backup-codes.txt';
+  a.download = 'nitroxi-backup-codes.txt';
   a.click();
   URL.revokeObjectURL(url);
 };
